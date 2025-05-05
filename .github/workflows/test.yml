@@ -12,7 +12,6 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-import json
 import os
 
 def test_model_score():
